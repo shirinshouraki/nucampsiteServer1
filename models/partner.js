@@ -19,7 +19,7 @@ const partnerSchema = new Schema({
         type: Boolean,
         default: false
     },
-    timestamps: String
+    timestamps: true
 });
 
 const Partner = mongoose.model('Partner', partnerSchema);
